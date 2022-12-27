@@ -8,20 +8,21 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
-  background-color: black;
+  // height: 40px;
   z-index:1;
   overflow: hidden;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 60px);
+    grid-template-rows: repeat(2, 40px);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
+    
   }
 `;
 

@@ -13,7 +13,7 @@ const Hero = () => (
       </SectionTitle>
       <SectionText>
         I am a Front-End Developer </SectionText>
-      <Button onclick={() => window.location = "https://google.com" }>Learn More</Button>
+      <Button onclick={() => window.location = "https://google.com" }>Download Resume</Button>
     </LeftSection>
   </Section>
 );
