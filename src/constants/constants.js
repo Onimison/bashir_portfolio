@@ -42,5 +42,5 @@ export const TimeLineData = [
   { year: 2021, text: 'Started my journey', },
   { year: 2022, text: 'Worked as the Lead developer at 10.8.8 Africa', },
   { year: 2022, text: 'Completed I4GxZuri internship in August 2022', },
-  { year: 2022, text: 'Reached stage of the HNGi9 internship in December 2022', }
+  { year: 2022, text: 'Reached stage six(6) of the HNGi9 internship in December 2022', }
 ];
