@@ -14,7 +14,7 @@ export const Container = styled.div`
   right: 0;
   // height: 40px;
   z-index:1;
-  overflow: hidden;
+  // overflow: hidden;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -22,9 +22,12 @@ export const Container = styled.div`
     grid-template-rows: repeat(2, 40px);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
+    overlay: hidden;
     
   }
 `;
+
+
 
 export const Span = styled.span`
   font-size: 2rem;
@@ -44,6 +47,7 @@ export const Div2 = styled.div`
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
+    display: none;
   }
 `;
 export const Div3 = styled.div`
@@ -54,6 +58,7 @@ export const Div3 = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
+    display: none;
   }
 `;
 
@@ -70,6 +75,7 @@ export const NavLink = styled.a`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
+    // display: none;
   }
 `;
 
